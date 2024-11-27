@@ -1,0 +1,53 @@
+{
+    "schemaVersion": "2.0",
+    "version": "1.0.1",
+    "packages": {
+        "centos": {
+            "_any": {
+                "x86_64": {
+                    "file": "node_exporter.zip"
+                }
+            }
+        },
+        "amazon": {
+            "_any": {
+                "x86_64": {
+                    "file": "node_exporter.zip"
+                }
+            }
+        },
+        "redhat": {
+            "_any": {
+                "x86_64": {
+                    "file": "node_exporter.zip"
+                }
+            }
+        },
+        "almalinux": {
+            "_any": {
+                "x86_64": {
+                    "file": "node_exporter.zip"
+                }
+            }
+        },
+        "windows": {
+            "_any": {
+                "x86_64": {
+                    "file": "windows_exporter.zip"
+                }
+            }
+        }
+    },
+    "files": {
+        "node_exporter.zip": {
+            "checksums": {
+                "sha256": "5aa4bbed88dd3de40c36458i22dfbf77ac4ol280a080eac1dfb7d45o2fb7c866"
+            }
+        },
+        "windows_exporter.zip": {
+            "checksums": {
+                "sha256": "2dbacad90d42d46e617fc640ceb05d29de40dc75553da43f84ba5212045341ea"
+            }
+        }
+    }
+}
